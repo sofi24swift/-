@@ -1,0 +1,18 @@
+@mixin card() {
+    .card {
+        background-color: rgb(219, 39, 39);
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow: hidden; 
+        width: 300px;
+        text-align: center;
+        padding: 15px;
+}
+}
+
+@mixin imagecard(){
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    
+}
