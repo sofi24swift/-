@@ -1,0 +1,74 @@
+.dropdown-icon {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+details[open] .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+details:not([open]) .dropdown-content {
+  display: none;
+}
+
+details[open] .dropdown-content {
+  display: block;
+}
+
+span {
+  margin-top: 20px;
+  font-size: 300px;
+}
+
+.book-card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  overflow: hidden;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+}
+
+.book-card img {
+  width: 150px;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+.book-card .text-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.book-card .book-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.genre {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.book-card .description {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+}
+
+.book-card .genre-badge {
+  display: inline-block;
+  background-color: #060433;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}/*# sourceMappingURL=recommendations.css.map */
