@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden;
     width: 100%;
 }
 #festival {
@@ -20,6 +20,7 @@ html, body {
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 
@@ -93,7 +94,7 @@ html, body {
     width: 100%;
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .card {
         flex-direction: column; 
         padding: 15px; 
@@ -121,4 +122,87 @@ html, body {
         margin-left: 0 !important;
         width: 500px;
     }
+    .flex{
+        flex-direction: column;
+    }
+    .dak{
+        margin-left: 30px;
+    }
+    .leba{
+        margin-left: 30px;
+    }
+    .fifty{
+        display: block;
+        margin-left: 100px !important;
+        margin-top: 30px;
+    }
+    .twenty{
+        margin-left: 100px !important;
+    }
+    .mude{
+        text-align: -webkit-auto !important;
+        width: 100% !important;
+        font-size: 24px !important;
+        margin-left: 30px !important;
+    }
+}
+
+.fasdakleba{
+    @include text()
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fas{
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+
+.dak{
+    width: 400px;
+    height: 400px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.leba{
+    width: 400px;
+    height: 400px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.thirty{
+    font-size: 40px;
+    color: red;
+    margin-left: 100px;
+}
+
+.fifty{
+    font-size: 40px;
+    color: red;
+    margin-left: 1000px;
+}
+
+.twenty{
+    font-size: 40px;
+    color: red;
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.mude{
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

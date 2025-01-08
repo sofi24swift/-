@@ -25,4 +25,39 @@
     text-align: center;
     letter-spacing: 1px; 
     margin: 30px 0;
+    margin-top: 60px;
+}
+
+.platform {
+    margin: 40px;
+    width: 30%;
+}
+
+.display{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tok{
+    width: auto;
+    height: 200px;
+    margin-left: 30px;
+}
+
+
+@media only screen and (max-width: 700px) {
+   .display{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .platform{
+    width: 100%;
+    margin-left: 70px;
+   }
+   .tok{
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+   }
 }

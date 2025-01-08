@@ -1,0 +1,24 @@
+.shop {
+  display: flex;
+  justify-content: space-around;
+}
+
+.laterna {
+  font-family: "Noto Serif Georgian";
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 30px 0;
+  margin-top: 60px;
+}
+
+.live {
+  width: 100px;
+  border-radius: 100px;
+}
+
+am {
+  display: flex;
+}/*# sourceMappingURL=shops.css.map */

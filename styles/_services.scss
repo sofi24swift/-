@@ -1,0 +1,72 @@
+.p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333; 
+    text-align: center;
+    letter-spacing: 1px; 
+    margin-bottom: 70px;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.kind {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-left: 620px;
+    margin-bottom: 100px;
+}
+
+.kind:hover {
+    transform: scale(1.05);
+}
+
+.kind img {
+    width: 100%;
+    height: auto;
+}
+
+.kind h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.kind p {
+    color: #777;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ff6600;
+    margin: 10px 0;
+}
+
+.kind button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .kind{
+        margin-left: 155px;
+    }    
+}

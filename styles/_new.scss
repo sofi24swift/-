@@ -1,0 +1,47 @@
+.new {
+    background-color: rgb(94, 7, 7);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.continer {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #ff6600;
+}
+
+.content-section {
+    margin: 20px 0;
+}
+
+.content-section p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.buton {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #cc5200;
+}

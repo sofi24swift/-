@@ -1,0 +1,41 @@
+@import "mixins";
+
+.dd{
+    @include text()
+}
+.shop {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.laterna {
+    margin-left: 110px;
+    color: black;
+}
+
+.live {
+   margin-top: -80px;
+   width: 100px;
+   height: 100px; 
+   border-radius: 50%;
+}
+
+.varketili {
+    width: 500px;  
+    height: auto;  
+    flex-shrink: 0;  
+}
+
+@media only screen and (max-width: 700px) {
+    .varketili{
+        margin-top: 30px;
+    }
+    .percent{
+        margin-top: 70px;
+    }
+    .shop{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}

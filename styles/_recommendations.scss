@@ -5,13 +5,19 @@
 
 
 .dropdown-icon {
-    font-size: 24px;
-    transition: transform 0.3s ease; 
-    border-width: 100px;
-    margin-top: 40px;
-    
-  }
-  
+  font-size: 30px;
+  transition: transform 0.3s ease, background 0.3s ease;
+  margin-top: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  background: linear-gradient(135deg, rgba(191, 56, 56, 0.7), rgba(163, 121, 121, 0.6));
+  padding: 10px 15px; 
+  border-radius: 50%; 
+  cursor: pointer;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}  
 
   details[open] .dropdown-icon {
     transform: rotate(180deg);
